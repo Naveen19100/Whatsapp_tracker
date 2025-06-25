@@ -1,0 +1,5 @@
+body { font-family: Arial, sans-serif; padding: 20px; }
+form textarea, form input { width: 100%; margin: 10px 0; padding: 8px; }
+button { padding: 10px 20px; }
+ul { list-style: none; padding: 0; }
+li { margin-bottom: 10px; border-bottom: 1px solid #ddd; padding-bottom: 5px; }

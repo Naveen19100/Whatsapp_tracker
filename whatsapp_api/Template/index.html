@@ -1,0 +1,23 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>WhatsApp Message Tracker</title>
+  <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+  <h1>WhatsApp Message Tracker</h1>
+
+  <form id="messageForm">
+    <input type="text" id="recipient_number" placeholder="Recipient Number" required />
+    <textarea id="message_text" placeholder="Type a message..." required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+
+  <h2>Messages</h2>
+  <ul id="messageList"></ul>
+
+  <script src="{% static 'script.js' %}"></script>
+</body>
+</html>
